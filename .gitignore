@@ -1,0 +1,16 @@
+# Virtual Environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific stuff:
+*.log
+local_settings.py
+db.sqlite3
+.env
+
+# sensitive settings file
+task_manager/settings.py
