@@ -12,5 +12,3 @@ local_settings.py
 db.sqlite3
 .env
 
-# sensitive settings file
-task_manager/settings.py
