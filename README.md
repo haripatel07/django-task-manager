@@ -77,14 +77,11 @@ psql --version
     Your API will be accessible at `http://127.0.0.1:8000/`.
 
 -----
-
 ### **Deployment**
 
-This back end is deployed on Render's platform.
+This back end is deployed on Render's platform. The provided URL is for the live API, not a front-end website. You can interact with this URL using tools like Postman or by connecting a front-end application to it.
 
-  * **Live URL**: `https://django-task-manager-2ukd.onrender.com`
-
------
+* **Live API URL**: `https://django-task-manager-2ukd.onrender.com`
 
 ### **API Endpoints**
 
