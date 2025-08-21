@@ -1,7 +1,13 @@
 from rest_framework import generics
+from rest_framework.permissions import AllowAny
+from .serializers import UserSerializer
 from .models import Task
 from .serializers import TaskSerializer
 from rest_framework.permissions import IsAuthenticated
+
+class UserRegistrationView(generics.CreateAPIView):
+    serializer_class = UserSerializer
+    permission_classes = [AllowAny]
 
 class TaskList(generics.ListCreateAPIView):
     serializer_class = TaskSerializer
