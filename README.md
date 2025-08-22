@@ -90,15 +90,25 @@ All API endpoints are prefixed with `/api/`. Test them using a tool like Postman
 #### **1. User Authentication**
 
   * **`POST /api/register/`**: Create a new user account.
+  ![Register](https://github.com/haripatel07/django-task-manager/blob/main/pictures/register_test.png)
+  
   * **`POST /api/token/`**: Obtain a JWT access token using user credentials.
+  ![Token](https://github.com/haripatel07/django-task-manager/blob/main/pictures/token_test.png)
 
 #### **2. Task Management**
 
-  * **`GET /api/tasks/`**: Retrieve all tasks for the authenticated user.
   * **`POST /api/tasks/`**: Create a new task.
+  ![Post Task](https://github.com/haripatel07/django-task-manager/blob/main/pictures/post_task_test.png)
+  * **`GET /api/tasks/`**: Retrieve all tasks for the authenticated user.
+  ![List Tasks](https://github.com/haripatel07/django-task-manager/blob/main/pictures/list_task_test.png)
   * **`GET /api/tasks/<id>/`**: Retrieve a specific task.
+  ![Get Specific Task](https://github.com/haripatel07/django-task-manager/blob/main/pictures/get_task_test.png)
   * **`PATCH /api/tasks/<id>/`**: Update a task.
+    
+  ![Update Task](https://github.com/haripatel07/django-task-manager/blob/main/pictures/update_task_test.png)
   * **`DELETE /api/tasks/<id>/`**: Delete a task.
+    
+  ![Delete Task](https://github.com/haripatel07/django-task-manager/blob/main/pictures/delete_task_test.png)
 
 -----
 
