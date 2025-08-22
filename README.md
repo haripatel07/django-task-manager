@@ -102,6 +102,7 @@ All API endpoints are prefixed with `/api/`. Test them using a tool like Postman
   * **`GET /api/tasks/`**: Retrieve all tasks for the authenticated user.
   ![List Tasks](https://github.com/haripatel07/django-task-manager/blob/main/pictures/list_task_test.png)
   * **`GET /api/tasks/<id>/`**: Retrieve a specific task.
+    
   ![Get Specific Task](https://github.com/haripatel07/django-task-manager/blob/main/pictures/get_task_test.png)
   * **`PATCH /api/tasks/<id>/`**: Update a task.
     
